@@ -1,9 +1,7 @@
 fun main() {
-    var firstname: String = "Nanang";
-    val lastname: String = "Setiawan";
+//    aarray
+    val members: Array<String> = arrayOf("Yurina", "Hirate", "Setiawan")
 
-    firstname = "Hirate"
-
-    println(firstname)
-    println(lastname)
+    val nanang: String = members.get(0)
+    println(nanang)
 }
